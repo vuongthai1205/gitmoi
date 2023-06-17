@@ -21,7 +21,9 @@ public class App {
             Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
 
             // Tạo một câu lệnh SQL
-            String sql = "SELECT * FROM huy";
+
+            String sql = "SELECT * FROM vuongvuong";
+
 
             // Tạo đối tượng Statement để thực thi câu lệnh SQL
             Statement statement = connection.createStatement();
