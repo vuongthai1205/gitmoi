@@ -14,14 +14,16 @@ public class App {
     public static void main(String[] args) {
         String jdbcUrl = "jdbc:mysql://localhost:3306/northwind";
         String username = "root";
-        String password = "";
+        String password = "1212";
 
         try {
             // Tạo kết nối tới cơ sở dữ liệu
             Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
+                        Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
+
 
             // Tạo một câu lệnh SQL
-            String sql = "SELECT * FROM vuongvuong";
+            String sql = "SELECT * FROM vuongvuong31";
 
             // Tạo đối tượng Statement để thực thi câu lệnh SQL
             Statement statement = connection.createStatement();
