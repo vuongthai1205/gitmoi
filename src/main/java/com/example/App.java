@@ -19,10 +19,13 @@ public class App {
         try {
             // Tạo kết nối tới cơ sở dữ liệu
             Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
+                        Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
+
 
             // Tạo một câu lệnh SQL
 
-            String sql = "SELECT * FROM vuongvuon23g";
+
+            String sql = "SELECT * FROM vuongvuong31";
 
 
             // Tạo đối tượng Statement để thực thi câu lệnh SQL
