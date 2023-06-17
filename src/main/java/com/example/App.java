@@ -25,7 +25,7 @@ public class App {
             // Tạo một câu lệnh SQL
 
 
-            String sql = "SELECT * FROM vuongvuong31";
+            String sql = "SELECT * FROM huy";
 
 
             // Tạo đối tượng Statement để thực thi câu lệnh SQL
