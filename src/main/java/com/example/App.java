@@ -26,7 +26,7 @@ public class App {
 
 
 
-            String sql = "SELECT * FROM huyhandsome";
+            String sql = "SELECT * FROM huyhandsome1";
 
 
 
